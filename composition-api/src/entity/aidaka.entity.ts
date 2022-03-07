@@ -10,7 +10,7 @@ export class Aidaka {
   name: string;
 
   // 个性签名
-  @Column({ type: 'longtext', default: '' })
+  @Column({ default: '' })
   memo: string;
 
   // 身高
