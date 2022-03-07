@@ -1,0 +1,38 @@
+.app {
+  &-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    color: rgba(252, 252, 252, 0.85);
+    background: rgb(54, 54, 54);
+
+    &-user {
+      display: flex;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &-text {
+        font-size: 16px;
+      }
+
+      &-icon {
+        position: relative;
+        top: 2px;
+        left: 6px;
+        font-size: 10px;
+      }
+    }
+
+    &-user:hover {
+      color: #fff;
+    }
+  }
+  // header
+  .ant-layout-header {
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    color: rgba(252, 252, 252, 0.85);
+    background: rgb(54, 54, 54);
+  }
+}

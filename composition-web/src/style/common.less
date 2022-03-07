@@ -1,0 +1,25 @@
+.easy-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 22px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+  max-height: calc(100vh - 88px);
+  overflow: auto;
+}
+
+.easy-handle-base {
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: all 0.2s;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.easy-handle-denger:extend(.easy-handle-base) {
+  color: #f5222d;
+
+  &:hover {
+    color: #fd7c83;
+  }
+}
